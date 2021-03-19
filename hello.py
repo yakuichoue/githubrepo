@@ -1,5 +1,7 @@
 import sys
+import site
 
+print(site.getsitepackages())   
 print(sys.version)
 print(sys.executable)
 print("Hello World")
